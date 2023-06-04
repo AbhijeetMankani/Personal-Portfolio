@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+
+body{
+    margin:0;
+    background: #1f1f38;
+    color: #FFF;
+    font-family: 'Poppins';
+    text-align: center;
+}
+header{
+    min-height: 95vh;
+}
+
+#home header h1{
+    font-family: 'Poppins';
+    font-size: 8vh;
+}
+#home header h4{
+    font-family: 'Consolas';
+}
+#home header h5, h6{
+    font-size: 5vh;
+    font-family: 'Consolas';
+    color: #bbbbff;
+}
+
+section{
+    min-height: 80vh;
+    padding: 3.5rem 0 2rem 0;
+}
+
+#nav-links ul li a{
+    font-size: 15px;
+}
+
+nav{
+    transition: all 0.4s ease;    
+}
+.bg{
+    background-color: #151559;
+}
+/* .background-gradient{
+    background: linear-gradient(180deg, rgb(183, 250, 255) 0%, rgba(71,125,161,1) 10%, rgb(20, 17, 84) 100%);
+} */
+#aboutme .card{
+    align-items: center;
+}
+#aboutme .card img{
+    width: 10vw;
+}
+
+#aboutme img{
+    width: 20vw;
+    transition: box-shadow 0.5s ease;
+}
+
+#aboutme img:hover{
+    /* border-right: 3px solid black;
+    border-bottom: 3px solid black; */
+    box-shadow: -5px 5px 5px 2px rgba(0, 0, 0, 0.4);
+}
+
+#skills .card{
+    background: transparent;
+}
+
+#skills .card img{
+    width: 5vw;
+    transition: box-shadow 0.5s ease;
+}
+
+#skills .card img:hover{
+    box-shadow: -5px 5px 5px 2px rgba(0, 0, 0, 0.4);
+}
+
+#projects .list-group-item{
+    background: rgba(0, 0, 0, 0.4);
+    color: lightgray;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#projects .list-group-item .list-group-item:hover{
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+
+#achievements .list-group-item{
+    background: rgba(0, 0, 0, 0.4);
+    color: lightgray;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#achievements .list-group-item:hover{
+    background: rgb(0, 0, 0);
+    color: white;
+}
