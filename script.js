@@ -43,4 +43,3 @@ navbartoggle.onclick = function(){
     navbar.classList.add('bg');
     navbar.classList.add('background-gradient');
 }
-
